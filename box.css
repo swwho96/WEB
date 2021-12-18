@@ -1,0 +1,29 @@
+.box1 {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: chocolate;    
+}
+
+/* border : 테두리 CSS*/
+.box1 {
+    border: 1px black solid;
+    border-radius: 50%; /* 원 모양으로 만들기 */
+    border-top-left-radius: 10%; /* 좌측 상단 테두리 */
+}
+
+.box2 {
+    width: 300px;
+    height: 300px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background-color: chocolate;
+}
+
+/* margin : 다른 요소와의 간격 */
+.box2 {
+    margin-top: 10px;
+    /* 시계 방향으로 top right bottom left */
+    margin : 20px 20px 20px 20px;
+}
