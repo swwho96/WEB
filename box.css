@@ -1,3 +1,8 @@
+* {
+    /* 모든 요소에게 box size의 기준을 border로 설정 */
+    box-sizing: border-box;
+}
+
 .box1 {
     width: 300px;
     height: 300px;
@@ -26,4 +31,37 @@
     margin-top: 10px;
     /* 시계 방향으로 top right bottom left */
     margin : 20px 20px 20px 20px;
+}
+
+/* margin: 0 auto; => 가운데 정렬 */
+
+.parent {
+    background-color: gray;
+}
+
+.child, .other {
+    height: 50px;
+    color: black;
+    line-height: 50px;
+    text-indent: 10px;
+}
+.child {
+    margin: 0 auto;
+    width: 500px;
+    background-color: yellow;
+}
+
+.other {
+    width:100px;
+    background-color: blueviolet;
+}
+
+span {
+    /* inline + block */
+    display: inline-block;
+    height: 80px;
+    padding-left:40px;
+    padding-top: 40px;
+    color: white;
+    background-color: blue;
 }
