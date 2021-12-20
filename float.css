@@ -4,12 +4,21 @@
 }
 
 .parent {
-    width: 200px;
+    /* oveflow hidden을 통해 float로 망가진 CSS 수정 */
+    /* overflow: hidden; */
+    width: 400px;
     margin: 0 auto;
     background-color: wheat;
 }
 
+.parent::after{
+    content: "";
+    display: block;
+    clear: left;
+}
+
 .child {
+    float: left;
     width: 200px;
     height: 200px;
     line-height: 200px;
@@ -18,10 +27,12 @@
     font-weight: 600;
 }
 
+.child::after{
+    content: "!";
+}
+
 .red {
-    width: 100px;
     background-color: red;
-    /* float: left; */
 }
 
 .yellow {
@@ -30,4 +41,9 @@
 
 .blue {
     background-color: blue;
+}
+
+.other{
+    color: white;
+    background-color: black;
 }
