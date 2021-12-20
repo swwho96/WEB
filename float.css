@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.parent {
+    width: 200px;
+    margin: 0 auto;
+    background-color: wheat;
+}
+
+.child {
+    width: 200px;
+    height: 200px;
+    line-height: 200px;
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+
+.red {
+    width: 100px;
+    background-color: red;
+    /* float: left; */
+}
+
+.yellow {
+    background-color: rgb(224, 202, 0);
+}
+
+.blue {
+    background-color: blue;
+}
