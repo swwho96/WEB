@@ -1,0 +1,61 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    background-color: grey;
+}
+
+h1{
+    font-size: 16px;
+    line-height: 1.5;
+    color: royalblue;
+}
+
+.user-card::after{
+    content: "";
+    display: block;
+    clear: left;
+}
+
+.user-photo{
+    position: relative;
+    margin-right: 12px;
+}
+
+.user-photo, .user-name{
+    float: left;
+}
+
+.user-photo img{
+    width: 40px;
+    height: 40px;
+    border: 0.5px solid green;
+    border-radius: 50%;
+    display: block;
+}
+
+.user-card{
+    width: 240px;
+    padding: 8px 12px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+.user-status{
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    right: -2px;
+    bottom: -2px;
+    border: 2px solid #fff;
+    display: block;
+    background-color: rgb(54, 201, 54);
+}
+
+.user-name{
+    padding: 8px 0;
+}
