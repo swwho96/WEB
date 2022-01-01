@@ -1,0 +1,30 @@
+.container{
+    width: 200px;
+    height: 500px;
+    background-color: darkgrey;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-between; */
+    align-items: flex-start; /* cross axis*/
+}
+
+.one, .two, .three{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+.one{
+    order: 2;
+    background-color: blanchedalmond;
+}
+
+.two{
+    order: 3;
+    background-color: cadetblue;
+}
+
+.three{
+    order: 1;
+    background-color: crimson;
+}
