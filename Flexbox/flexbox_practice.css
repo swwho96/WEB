@@ -1,3 +1,13 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
 li{
     list-style-type: none;
     list-style: none;
@@ -8,20 +18,37 @@ li{
     padding-left: 0;
     justify-content: flex-start;
     align-items: center;
-    border-bottom: 1px solid dodgerblue;
+    margin-bottom: 30px;
 }
 
 .tab-menu-item{
     margin-right: 16px;
 }
 
-.nav > *{
-    width: 100px;
-    height: 50px;
-    text-align: center;
-    border: 1px solid black;
+.selected a{
+    color: dodgerblue;
+    border-bottom: 1px solid dodgerblue;
 }
 
-.emails {
-    color: dodgerblue;
+/* ------------------------------------- */
+
+.card{
+    width: 800px;
+    display: flex;
+    padding-left: 0;
 }
+
+.card-user{
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+    display: block;
+    margin-right: 20px;
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #1f2d3d;
+    line-height: 1.25;
+  }
