@@ -1,0 +1,47 @@
+body{
+    font-family: 'Noto Sans KR', sans-serif;
+    letter-spacing: -0.015em;
+}
+
+/* font size */
+.fs-tiny{
+    font-size: 12px;
+    line-height: 1.33333;
+}
+
+.fs-small{
+    font-size: 14px;
+    line-height: 1.478;
+}
+
+.fs-base{
+    font-size: 16px;
+    line-height: 1.478;
+}
+
+.fs-medium{
+    font-size: 18px;
+    line-height: 1.478;
+}
+
+.fs-large{
+    font-size: 20px;
+    line-height: 1.478;
+}
+
+/* font weight */
+.fw-light{
+    font-weight: 300;
+}
+
+.fw-regular{
+    font-weight: 400;
+}
+
+.fw-medium{
+    font-weight: 500;
+}
+
+.fw-bold{
+    font-weight: 700;
+}
