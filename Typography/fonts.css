@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'font-name';
+    font-style: normal;
+    font-weight: 400;
+    src: url();
+    src: url('경로.eot'); /* IE9 Compat Modes */
+    src: url('경로.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('경로.woff2') format('woff2'), /* Super Modern Browsers */
+       url('경로.woff') format('woff'), /* Pretty Modern Browsers */
+       url('경로.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('경로.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
