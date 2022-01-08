@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.box1{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    background-color: brown;
+    transition: all 2500ms;
+}
+
+.box.active{
+    font-size: 30px;
+    background-color: cadetblue;
+}
+
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    width: 300px;
+    height: 300px;
+    background-color: #0066ff;
+    animation-name: ani;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes ani {
+    from{
+        top: 0;
+    }
+
+    to{
+        background-color: darkgoldenrod;
+        top: 200px;
+    }
+}
