@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.button-shadow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    /* display: inline-flex;
+    justify-content: center;
+    align-items: center; */
+    border: 0;
+    border-radius: 5px;
+    position: relative;
+}
+
+button:focus,
+button:active{
+    outline: none;
+}
+
+.cancel-button{
+    background-color: #ff4949;
+    transition: box-shadow 250ms ease-in
+}
+
+.cancel-button:hover{
+    box-shadow: 0 16px 16px 0 rgba(255, 75, 73, 0.25);
+}
+
+.confirm-button{
+    background-color: #13ce66;
+    transition: box-shadow 250ms ease-in
+}
+
+.confirm-button:hover{
+    box-shadow: 0 16px 16px 0 rgba(19, 206, 102, 0.35);
+}
